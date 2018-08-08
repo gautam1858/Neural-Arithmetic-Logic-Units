@@ -7,9 +7,7 @@ from mxnet import nd, autograd, gluon
 from mxnet.gluon import nn, Block
 from mxnet.gluon.data import vision
 
-warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 inputs, hiddens, outputs = 784, 200, 10
 learning_rate = 0.01
