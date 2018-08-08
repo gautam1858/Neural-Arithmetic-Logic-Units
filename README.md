@@ -10,8 +10,10 @@ MXNet implementation of [Neural Arithmetic Logic Units](https://arxiv.org/abs/18
 from mxnet import *
 
 # Training
-python nalu.py '--'action train
+python nalu.py --action train
 
 # Prediction
-python nalu.py '--'action predict
+python nalu.py --action predict
 ```
+
+Note :  By default the action is train ``` python python nalu.py ```
