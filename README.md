@@ -19,6 +19,7 @@ python nalu.py action train
 from mxnet import *
 
 # Performing prediction using the saved mxnet model
+python nalu.py action predict
 ```
 
 Note : Default action is train: ```python nalu.py ```
