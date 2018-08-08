@@ -4,16 +4,21 @@
 
 MXNet implementation of [Neural Arithmetic Logic Units](https://arxiv.org/abs/1808.00508) by Andrew Trask, Felix Hill, Scott Reed, Jack Rae, Chris Dyer and Phil Blunsom using **MNIST** dataset 
 
-## USAGE
+## Training 
 
 ```python
 from mxnet import *
 
-# Training
+# Training and saving the model
 python nalu.py action train
 
-# Prediction
-python nalu.py action predict
+```
+## Prediction
+
+```python
+from mxnet import *
+
+# Performing prediction using the saved mxnet model
 ```
 
 Note : Default action is train ```python nalu.py ```
